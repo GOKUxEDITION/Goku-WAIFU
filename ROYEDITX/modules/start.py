@@ -56,7 +56,7 @@ async def start(update: Update, context: CallbackContext) -> None:
         caption = f"""
         ***❖ ʜᴇʏ {update.effective_user.first_name}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ ♥︎\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━***
               
-***● ɪ ᴀᴍ 『ɴʏᴋᴀᴀ』x³『ᴀɴɪᴍᴇ』♡゙ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16 \n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9 \n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ Mᴀxᴛᴇᴀ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
+***● ɪ ᴀᴍ 『 Mᴀxᴛᴇᴀ•ᴀɴɪᴍᴇ』♡゙ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16 \n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9 \n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ Mᴀxᴛᴇᴀ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
                """
         keyboard = [
             [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f'http://t.me/Maxtea_Waifu_Bot?startgroup=new')],

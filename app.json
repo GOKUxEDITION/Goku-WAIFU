@@ -11,7 +11,7 @@
          "waifu bot",
          "husbando"
       ],   
-   "repository": "https://github.com/tinaarobot/WAIFU",
+   "repository": "https://t.me/GOKUxEDITION",
    "stack": "heroku-24",
    "addons": [
       {
@@ -31,33 +31,33 @@
       "LOGGER_ID": {
          "description": " Support Group's ID And Please Add ur Bot in That group.. with administrator rights",
          "required": true,
-         "value": "-1001929735324"
+         "value": "-1002159865361"
       },
       "SUDO_USERS": {
          "description": "Set your best friends id as sudo.",
          "required": true,
-         "value": "6922271843" 
+         "value": "22008882" 
       },
       "BOT_USERNAME": {
          "description": "Enter your bot username.",
          "required": true,
-         "value": "Nykaa_Anime_Bot" 
+         "value": "GokuxModz_bot" 
       },
       "SUPPORT_CHAT": {
          "description": "your bots support chat name without @ or chat id.",
          "required": true,
-         "value": "THE_FRIENDZ" 
+         "value": "EditionServerSupport" 
       },
       
       "OWNER_ID": {
          "description": "Id of bot owner",
          "required": true,
-         "value": "6922271843" 
+         "value": "7442804917" 
       },
      "MONGO_URL": {
          "description": "Add a Mongodb url to store data",
          "required": true,
-         "value": "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"
+         "value": ""
       },
       "IMG_URL": {
          "description": "image Urls.. For start.. Harem.. and top.. etc commands",
@@ -67,23 +67,23 @@
       "UPDATE_CHAT": {
          "description": "Update Channel Username Without @",
          "required": true,
-         "value": "Nykaa_Update" 
+         "value": "" 
      },
       
       "API_ID": {
          "description": "Your Api id... Don't know what is this.. then searchon Google",
          "required": true,
-         "value": "6435225" 
+         "value": "22008882" 
       },
       "CHANNEL_ID": {
          "description": "Your Channel Id.. Where bot will Send.. all Ur Uploaded characters with details",
          "required": true,
-         "value": "-1001852000392" 
+         "value": "Edition_Database" 
       },
       "API_HASH": {
          "description": "Your Api HASH... Don't know what is this.. then searchon Google",
          "required": true,
-         "value": "4e984ea35f854762dcde906dce426c2d" 
+         "value": "cd2ee55895cb3a12830bf2998c413b28" 
        }
     }    
 }

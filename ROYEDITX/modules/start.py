@@ -41,7 +41,7 @@ async def start(update: Update, context: CallbackContext) -> None:
         
         await collection.insert_one({"_id": user_id, "first_name": first_name, "username": username})
         
-        await context.bot.send_message(chat_id=LOGGER_ID, text=f"❖ <a href='tg://user?id={user_id}'>{first_name}</a> sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ", parse_mode='HTML')
+        await context.bot.send_message(chat_id=LOGGER_ID, text=f"❖ <a href='tg://user?id={user_id}'>{first_name}</a> Mᴀxᴛᴇᴀ ᴀɴɪᴍᴇ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ", parse_mode='HTML')
     else:
         
         if user_data['first_name'] != first_name or user_data['username'] != username:
@@ -56,12 +56,12 @@ async def start(update: Update, context: CallbackContext) -> None:
         caption = f"""
         ***❖ ʜᴇʏ {update.effective_user.first_name}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ ♥︎\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━***
               
-***● ɪ ᴀᴍ 『ɴʏᴋᴀᴀ』x³『ᴀɴɪᴍᴇ』♡゙ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16 \n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9 \n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
+***● ɪ ᴀᴍ 『ɴʏᴋᴀᴀ』x³『ᴀɴɪᴍᴇ』♡゙ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16 \n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9 \n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ Mᴀxᴛᴇᴀ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
                """
         keyboard = [
-            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f'http://t.me/avishaxbot?startgroup=new')],
-            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/HLO_PAPA'),
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/the_friendz')],
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f'http://t.me/Maxtea_Waifu_Bot?startgroup=new')],
+            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/stuckwintu'),
+             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/EditionServerSupport')],
             [InlineKeyboardButton("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -79,7 +79,7 @@ async def start(update: Update, context: CallbackContext) -> None:
         ]
         
         reply_markup = InlineKeyboardMarkup(keyboard)
-        await context.bot.send_photo(chat_id=update.effective_chat.id, photo=photo_url, caption="❖ ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !",reply_markup=reply_markup )
+        await context.bot.send_photo(chat_id=update.effective_chat.id, photo=photo_url, caption="❖ Mᴀxᴛᴇᴀ ᴀɴɪᴍᴇ ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !",reply_markup=reply_markup )
 
 async def button(update: Update, context: CallbackContext) -> None:
     query = update.callback_query
@@ -107,13 +107,13 @@ async def button(update: Update, context: CallbackContext) -> None:
     elif query.data == 'back':
 
         caption = f"""
-        ***❖ ʜᴇʏ {update.effective_user.first_name}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ ♥︎\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━***
+        ***❖ ʜᴇʏ {update.effective_user.first_name}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ  ♥︎\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━***
               
-***● ɪ ᴀᴍ 『ɴʏᴋᴀᴀ』x³『ᴀɴɪᴍᴇ』♡゙  ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16\n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9\n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
+***● ɪ ᴀᴍ 『ɴʏᴋᴀᴀ』x³『ᴀɴɪᴍᴇ』♡゙  ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● Mᴀxᴛᴇᴀ ᴀɴɪᴍᴇ ᴠᴇʀsɪᴏɴ ➥ M33.6/V16\n● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥ 3.11.9\n\n❖ ᴛʜɪs ɪs ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ Mᴀxᴛᴇᴀ ᴀɴɪᴍᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴏʟʟᴇᴄᴛ ʜᴀʀᴇᴍ ʙᴏᴛ.***
                """
         keyboard = [
             [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/hlo_papa'),
+            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f'https://t.me/stuckwintu'),
              InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/{SUPPORT_CHAT}')],
             [InlineKeyboardButton("ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data='help')],
         ]
